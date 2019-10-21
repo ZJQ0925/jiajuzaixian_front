@@ -1,0 +1,140 @@
+body{
+    background: #fefefe !important;
+    font-size:12px !important;
+    color:#ccc !important;
+}
+li{
+    list-style: none;
+}
+/* 固定定位--标题 */
+.My-fixed{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background:white;
+    z-index:999;
+}
+.My-header-title{
+    font-size:20px;
+    font-weight: 600;
+    padding:15px 0 20px 15px;
+    letter-spacing: 2px;
+}
+/* 常用文字颜色 */
+.t-black{
+    color:black !important;
+}
+.t-pink{
+    color:#d8515a;
+}
+.t-pri{
+    color:#ccc;
+}
+/* 常用字体大小 */
+.f-12{
+    font-size:12px !important;
+}
+.f-14{
+    font-size:14px !important;
+}
+.f-16{
+    font-size:16px !important;
+}
+.f-18{
+    font-size:18px !important;
+}
+.f-20{
+    font-size:20px !important;
+}
+.f-32{
+    font-size:32px !important;
+}
+/* 字体加粗 */
+.fw-5{
+    font-weight: 500 !important;
+}
+.fw-6{
+    font-weight: 600 !important;
+}
+.fw-8{
+    font-weight: 800 !important;
+}
+.fw-9{
+    font-weight: 900 !important;
+}
+/* 外边距 */
+
+/* 内边距 */
+.pl-1{
+    padding-left: 5px !important;
+}
+.pr-1{
+    padding-right:5px !important;
+}
+/* 分割块 */
+.div{
+    height:10px;
+    background:#fefefe;
+}
+/* 边框 */
+.b-top-1{
+    border-top:1px solid rgba(0, 0, 0,.1)
+}
+.b-bottom-1{
+    border-bottom:1px solid rgba(0, 0, 0,.1)
+}
+/*弹性布局 横向*/
+.d-flex-row{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap;
+}
+/* 弹性布局-纵向 */
+.d-flex-col{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+/*卡片 弹性布局 */
+.my-cell{
+	background:#ffffff;
+	font-size:15px;
+}
+.my-cell-item{
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+/* 通用功能：箭头> */
+.arrow{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.arrow::after{
+	content: "";
+	width:6px;
+	height: 6px;
+	border-top:1px solid #ccc;
+	border-right: 1px solid #ccc;
+	transform: rotate(45deg);
+}
+/* 通用清除浮动 */
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 文字超出部分省略 */
+.text-hidden{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/* 头像 */
+.myAuthor{
+    border:1px solid #d8515a;
+    border-radius: 50%;
+    padding:1px;
+}
